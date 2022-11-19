@@ -1,0 +1,7 @@
+{
+  "singleQuote": true,
+  "svelteSortOrder": "scripts-markup-styles-options",
+  "svelteStrictMode": true,
+  "svelteBracketNewLine": false,
+  "svelteAllowShorthand": false
+}
