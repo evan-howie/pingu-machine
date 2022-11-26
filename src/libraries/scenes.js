@@ -107,8 +107,9 @@ class TransitionScene {
 class HouseScene extends Scene {
     constructor() {
         super("../res/images/house.png", [
-            new ClickableObject("../res/images/door.png", gc.width / 2, gc.height / 2 + 172 / 2 + 21, 85, 172, {
-                center: true
+            new ClickableObject("", gc.width / 2, gc.height / 2 + 172 / 2 + 21, 100, 200, {
+                center: true,
+                display: false
             }, () => {
                 cur_scene = new TransitionScene(scene_manager.get_scene("intro"));
             })
