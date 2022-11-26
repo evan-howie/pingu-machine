@@ -8,7 +8,7 @@ function setup() {
 
 	scene_manager = new SceneManager();
 
-	cur_scene = scene_manager.get_scene("end");
+	cur_scene = scene_manager.get_scene("title");
 	gc.textFont("Kulim Park");
 	gc.textStyle(BOLD);
 }
